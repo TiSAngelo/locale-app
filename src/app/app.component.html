@@ -1,0 +1,18 @@
+  <nav class="top-nav">
+    <h4>
+      {{'TITLE.translate_page_title' | translate}}
+    </h4>
+    <select id="selectLang" class="lang-select" (change)="selectLanguage($event)" >
+      <option [value]="lang.value" [selected]="lang.value == selectedLang" [disabled]="lang.value == selectedLang" *ngFor="let lang of langOptions" >{{ lang.label }}</option>
+    </select>
+  </nav>
+  
+  <div class="text-content d-flex flex-column">
+    <div class="text-card">
+      <h2 class="title-translate">{{ 'TITLE.text_exemple_title' | translate }}</h2>
+      <p>{{ 'CONTENT.text_exemple_content' | translate }}</p>
+    </div>
+    <h2 class="date-show" >
+      <span >{{currentDate | date : ('DATE.date_format' | translate)}}</span>
+    </h2>
+  </div>

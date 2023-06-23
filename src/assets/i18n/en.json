@@ -1,0 +1,13 @@
+{
+    "TITLE": {
+        "translate_page_title": "Page translation",
+        "text_exemple_title": "Text Exemple"
+    },
+    "CONTENT": {
+        "text_exemple_content": "A small demonstration text to serve as a test for the application of internationalization of a web page."
+    },
+    "DATE": {
+        "date_format": "medium"
+    }
+    
+}

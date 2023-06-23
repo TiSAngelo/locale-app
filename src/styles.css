@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 109, 1) 35%, rgba(255, 225, 123, 1) 100%);
+    font-family: "Open Sans", sans-serif;
+    color:white;
+}
+
+h4 {
+    margin: 0;
+    text-shadow: 0 0 3px white;
+}
+
+.title-translate {
+    font-weight: bold;
+    line-height: 3.5em;
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin: 30px 0 10px 0;
+}
+
+.all-conent {
+    display: flex;
+    justify-content: center;
+}
+
+.top-nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.lang-select {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.text-content {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-card {
+    background-color: black;
+    width: 40vw;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    opacity: .9;
+    border: solid 5px white;
+    box-shadow: 10px 0px 50px black;
+    margin-top: 80px
+}
+
+.date-show {
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    padding: 15px 25px;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, .5);
+    font-weight: lighter;
+    text-shadow: 0 0 3px black
+}
+
+@media (max-width: 569px) {
+    .text-card {
+        width: 75vh;
+    }
+}

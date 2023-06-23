@@ -1,0 +1,12 @@
+{
+    "TITLE": {
+        "translate_page_title": "ترجمة الصفحة",
+        "text_exemple_title": "مثال نصي"
+    },
+    "CONTENT": {
+        "text_exemple_content": "مثال نصينص توضيحي صغير ليكون بمثابة اختبار لتطبيق تدويل صفحة الويب."
+    },
+    "DATE": {
+        "date_format": "ح ح:مم:سس دد مم ذذذذ"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "TITLE": {
+        "translate_page_title": "Tradução da página",
+        "text_exemple_title": "Exemplo de Texto"
+    },
+    "CONTENT": {
+        "text_exemple_content": "Um pequeno texto de domonstração para servir de teste para a aplicação de internacionalização de uma página web."
+    },
+    "DATE": {
+        "date_format": "dd/MM/yyyy HH:mm:ss"
+    }
+}
